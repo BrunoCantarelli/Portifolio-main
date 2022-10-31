@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Meu Portifólio</title>
-    <script src="../Portifólio/assets/js/index.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-
+    
     <aside class="menu menu-color">
         <div class="main-content menu-content">
             <h1>
@@ -30,34 +29,14 @@
             </nav>
         </div>
     </aside>
-
+    
     <div class="spacing"></div>
 
     <section class="bg3 section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
-
-                <script>
-                    var today = new Date();
-                    var hourNow = today.getHours();
-                    var greeting;
-
-                    if (hourNow > 18) {
-                        greeting = 'Boa Noite!';
-                    } else if (hourNow > 12) {
-                        greeting = 'Boa Tarde!';
-                    } else if (hourNow > 0) {
-                        greeting = 'Bom Dia!';
-                    } else {
-                        greeting = "Bem Vindo!";
-                    }
-                    
-                    document.write('<h3 class="greetings">' + greeting + '</h3>');
-
-                    // var greeting = document.getElementById('teste')
-                    // greeting.textContent = document.write(greeting)
-
-                </script>
+                
+                <h3 class="greetings" id="titulo"></h3> 
 
                 <h2 class="scroll">Sobre mim</h2>
                 <p>
@@ -75,11 +54,11 @@
 
     <section class=" section bg1">
         <div class="main-content intro-content">
-
+            
             <div class="intro-img">
                 <img src="assets/img/portImg.svg" alt="teste">
             </div>
-
+            
             <div class="intro-text-content">
                 <h1>
                     Quais são meus objetivos
@@ -90,20 +69,20 @@
                     na área
                     <spam style="font-family: 'Caveat', cursive; font-size: 35px; color: crimson;">front-end</spam>.
                 </li>
-
+                
                 <li>
                     Dominar o
                     <spam style="font-family: 'Caveat', cursive; font-size: 35px; color: crimson;">desenvolvimento web
                     </spam>
                     para fazer cada vez mais projetos e trabalhos.
                 </li>
-
+                
                 <li>
                     <spam style="font-family: 'Caveat', cursive; font-size: 35px; color: crimson;">Aprender</spam>
                     mais profundamente
                     <spam style="font-family: 'Caveat', cursive; font-size: 35px; color: crimson;">Inglês</spam>.
                 </li>
-
+                
                 <li>
                     Começar a estudar
                     <spam style="font-family: 'Caveat', cursive; font-size: 35px; color: crimson;">linguagens</spam>
@@ -116,11 +95,11 @@
                     do país.
                 </li>
             </div>
-
+            
         </div>
 
     </section>
-
+    
     <section class="section bg3">
         <div class="main-content white-word">
             <h1>Projetos</h1>
@@ -129,12 +108,8 @@
             </p>
         </div>
     </section>
-
-
+    
+    
 </body>
-<script>
-    window.sr + ScrollReveal({ reset: true });
-
-    sr.reveal('.intro-content');
-</script>
+<script src="../Portifólio/assets/js/index.js"></script>
 </html>
