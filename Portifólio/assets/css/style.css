@@ -5,7 +5,7 @@
     --primary-color: #01012C;
     --white-color: #FFFFFF;
     --light-gray-color: #EEEEEE;
-    --secundary-color: crimson;
+    --secundary-color: #dc143c;
     --gap: 4rem;
 }
 
@@ -41,11 +41,11 @@ h1 a {
 }
 
 .menu-color {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .white-word {
-    color: white;
+    color: #ffffff;
 }
 
 .img-menu {
@@ -140,7 +140,7 @@ h1 a {
     left: 25%;
     width: 0;
     height: 0.2rem;
-    background-color: crimson;
+    background-color: #dc143c;
     transition: all 300ms ease-in-out;
 }
 
@@ -157,7 +157,7 @@ h1 a {
 }
 
 .greetings {
-    color: red;
+    color: #ff0000;
 }
 
 .intro-text-content, .intro-content {
